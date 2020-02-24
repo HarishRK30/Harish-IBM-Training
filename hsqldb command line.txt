@@ -1,1 +1,16 @@
-java -cp hsqldb.jar org.hsqldb.server.Server --database.0 file:mydb --dbname.0 mydb
+STEPS FOR HSQLDB SETUP
+----------------------
+
+STARTING THE SERVER
+
+	1. Download hsqlbr.jar file --> its in Download folder
+	2. Copy the downloaded .zip file in a desired folder
+	3. Extract the .zip file in that desire a folder
+	4. start command line --> win + R --> cmd
+	5. C:\>cd hsqldb-2.5.0
+
+	C:\hsqldb-2.5.0>cd hsqldb
+	
+	C:\hsqldb-2.5.0\hsqldb>cd lib
+
+	C:\hsqldb-2.5.0\hsqldb\lib> java -cp hsqldb.jar org.hsqldb.server.Server --database.0 file:mydb --dbname.0 mydb
